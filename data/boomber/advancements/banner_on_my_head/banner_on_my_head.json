@@ -1,0 +1,19 @@
+{
+	"display": {
+		"title": "Banner On My Head v1.0.0",
+		"description": "A.k.a BOMH! (Yeah, I need to work on my acronym)",
+		"icon": {
+			"item": "minecraft:white_banner",
+			"nbt": "{BlockEntityTag: {Patterns: [{Pattern: \"bt\", Color: 9}, {Pattern: \"tt\", Color: 9}, {Pattern: \"mc\", Color: 15}]}}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	
+	}
+}

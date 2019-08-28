@@ -1,0 +1,2 @@
+execute store result score #bb.bomh.ry bb.variable run data get entity @s Rotation[1]
+execute unless score #bb.bomh.ry bb.variable matches ..-85 run scoreboard players set #bb.bomh.condition bb.success 0
