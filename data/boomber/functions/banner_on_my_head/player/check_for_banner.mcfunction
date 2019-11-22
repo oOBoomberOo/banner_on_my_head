@@ -11,6 +11,7 @@ execute if score #bb.bomh.banner_state bb.success matches 0 as @e[type=item, nbt
 execute if score #bb.bomh.banner_state bb.success matches 0 as @e[type=item, nbt={Item: {id: "minecraft:light_gray_banner"}}, distance=..0.7, tag=!global.ignore] run function boomber:banner_on_my_head/banner/target
 execute if score #bb.bomh.banner_state bb.success matches 0 as @e[type=item, nbt={Item: {id: "minecraft:cyan_banner"}}, distance=..0.7, tag=!global.ignore] run function boomber:banner_on_my_head/banner/target
 execute if score #bb.bomh.banner_state bb.success matches 0 as @e[type=item, nbt={Item: {id: "minecraft:blue_banner"}}, distance=..0.7, tag=!global.ignore] run function boomber:banner_on_my_head/banner/target
+execute if score #bb.bomh.banner_state bb.success matches 0 as @e[type=item, nbt={Item: {id: "minecraft:purple_banner"}}, distance=..0.7, tag=!global.ignore] run function boomber:banner_on_my_head/banner/target
 execute if score #bb.bomh.banner_state bb.success matches 0 as @e[type=item, nbt={Item: {id: "minecraft:brown_banner"}}, distance=..0.7, tag=!global.ignore] run function boomber:banner_on_my_head/banner/target
 execute if score #bb.bomh.banner_state bb.success matches 0 as @e[type=item, nbt={Item: {id: "minecraft:green_banner"}}, distance=..0.7, tag=!global.ignore] run function boomber:banner_on_my_head/banner/target
 execute if score #bb.bomh.banner_state bb.success matches 0 as @e[type=item, nbt={Item: {id: "minecraft:red_banner"}}, distance=..0.7, tag=!global.ignore] run function boomber:banner_on_my_head/banner/target

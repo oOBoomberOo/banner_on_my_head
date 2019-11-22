@@ -8,3 +8,5 @@ setblock ~ 255 ~ minecraft:air
 playsound minecraft:item.armor.equip_generic player @a ~ ~ ~
 
 execute as @e[type=item, tag=boomber.banner_on_my_head.target_banner] run function boomber:banner_on_my_head/banner/remove
+
+advancement grant @s only boomber:banner_on_my_head/story/equip_banner

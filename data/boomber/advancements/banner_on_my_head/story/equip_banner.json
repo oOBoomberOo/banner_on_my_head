@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "It's on my head!!",
+		"description": "Equip banner on your head by looking directly up and throw a banner",
+		"icon": {
+			"item": "minecraft:red_banner"
+		},
+		"announce_to_chat": true,
+		"show_toast": true
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "minecraft:story/smelt_iron"
+}
