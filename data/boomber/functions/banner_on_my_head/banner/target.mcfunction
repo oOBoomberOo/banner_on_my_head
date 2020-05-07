@@ -1,2 +1,2 @@
 tag @s add boomber.banner_on_my_head.target_banner
-scoreboard players set #bb.bomh.banner_state bb.success 1
+scoreboard players set #banner_state bb.bh.success 1

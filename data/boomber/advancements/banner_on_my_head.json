@@ -1,6 +1,6 @@
 {
 	"display": {
-		"title": "Banner On My Head v1.0.2",
+		"title": "Banner On My Head",
 		"description": "",
 		"icon": {
 			"item": "minecraft:white_banner",
@@ -9,7 +9,7 @@
 		"announce_to_chat": false,
 		"show_toast": false
 	},
-	"parent": "boomber:boomber",
+	"parent": "global:boomber",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"
