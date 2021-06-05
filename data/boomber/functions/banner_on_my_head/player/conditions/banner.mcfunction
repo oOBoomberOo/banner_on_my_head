@@ -1,0 +1,1 @@
+execute anchored eyes rotated 0 -90 positioned ^ ^ ^0.5 as @e[type=item, predicate=boomber:banner_on_my_head/is_banner, distance=..0.7, tag=!global.ignore, tag=!global.ignore.kill] if score #condition bb.bh.var matches 0 run function boomber:banner_on_my_head/banner/target
